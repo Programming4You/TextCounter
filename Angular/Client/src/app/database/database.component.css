@@ -1,0 +1,15 @@
+mat-card {
+    background-color:lightslategrey;
+    height: 185px;
+}
+
+mat-card-content {
+    height: 40px;
+}
+
+
+#tblList {
+    overflow-y: scroll; 
+    margin-top: 25px;
+    max-height: 400px;
+}

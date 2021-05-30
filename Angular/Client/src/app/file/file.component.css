@@ -1,0 +1,10 @@
+mat-card {
+    background-color:lightslategrey;
+    height: 185px;
+}
+
+mat-card-content {
+    height: 40px;
+}
+  
+

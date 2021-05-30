@@ -1,0 +1,26 @@
+
+.container span {
+    height: 50px; 
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.container {
+    margin:auto; 
+    display:table;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: lightblue;
+  }
+
+  @media screen and (min-width: 500px) {
+    .footer {
+       position: fixed;
+    }
+ }

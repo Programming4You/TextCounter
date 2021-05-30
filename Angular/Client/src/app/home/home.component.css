@@ -1,0 +1,10 @@
+
+container {
+  overflow-y: scroll; 
+  max-height: 400px;
+}
+
+row {
+    display: flex;
+    align-items: stretch;
+}

@@ -1,0 +1,11 @@
+header {
+    background-color:cadetblue;
+    margin-bottom: 3%;
+}
+
+h1 {
+    font-size:30px;
+    font-weight: 500;
+    margin-top: 1%;
+    color: darkslategray;
+}

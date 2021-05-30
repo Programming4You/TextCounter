@@ -1,0 +1,24 @@
+<mat-card>
+    <mat-card-header>
+      <mat-card-title>Insert text and Get data</mat-card-title>
+      <mat-card-subtitle>Insert text and get data from database</mat-card-subtitle>
+    </mat-card-header>
+    <form  class="example-form">
+        <mat-form-field class="example-full-width">
+          <mat-label>Text</mat-label>
+          <input matInput [(ngModel)]="userInputText" name="inputText" autocomplete="off">
+        </mat-form-field>
+      </form>
+    <mat-card-actions>
+        <button mat-flat-button (click)="createData()">
+            <mat-icon>add_box</mat-icon> Add & show
+        </button >
+    </mat-card-actions>
+</mat-card>
+
+<div id="tblList" *ngIf="textList !== undefined">
+    <div class="mb-2" *ngFor="let text of textList">
+        count: {{text.count}} <br>
+        text: {{text.text}}
+    </div>
+</div>
